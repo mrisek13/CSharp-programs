@@ -22,7 +22,7 @@ Upoznavanje sa pojmovima razred i objekt / Introduction to the concepts of class
   - Ponašanja / Behaviors
   - Identitet / Identity
 
-# 4. Svojstva i metode razreda / Class Properties and Methods
+## 4. Svojstva i metode razreda / Class Properties and Methods
 Članovi razreda / Class Members
 - Svojstva i metode / Properties and methods
 - Modifikatori pristupa / Access modifiers
