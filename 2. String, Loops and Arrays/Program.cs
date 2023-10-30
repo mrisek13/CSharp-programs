@@ -4,6 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+Zadatak:
+Izradite aplikaciju koja prilikom pokretanja nudi sljedeće opcije:
+1. Unos rednog broja dana u tjednu (1-7) nakon čega se ispisuje taj dan u tjednu, npr. za unos 3 ispisati 
+Srijeda, ukoliko korisnik unese neki drugi broj koji nije u rasponu od 1 do 7 ponovno ponuditi upis
+2. Unos podataka o studentu: prezime i ime, godina studija, smjer nakon čega iste podatke ispisati u 
+obliku Student prezime i ime polazi godinu. godinu smjera smjer koristeći:
+a. Spajanje stringova i varijabli operatorom +
+b. Koristeći String.Format
+c. Koristeći String interpolation
+3. Unos 2 broja te pomoću ternarnog operatora provjerite ako je prvi broj veći od drugog
+4. Unos dužina stranica A i B trokuta te izračun hipotenuze korištenjem Math biblioteke
+5. Unos n brojeva u polje tipa double nakon čega ispisati sumu svih brojeva i njihov prosjek
+6. Unos n brojeva u polje tipa double nakon čega ispisati sve parne brojeve iz tog polja
+Dodatni zadaci:
+1. Preradite if-else grananje u switch-case oblik
+2. Ponudite korisniku opcije tako dugo dok ne odabere opciju X koja označava izlaz iz programa
+*/
+
 namespace Vjezba_02
 {
     class Program
