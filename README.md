@@ -26,3 +26,15 @@ Upoznavanje sa pojmovima razred i objekt / Introduction to the concepts of class
 Članovi razreda / Class Members
 - Svojstva i metode / Properties and methods
 - Modifikatori pristupa / Access modifiers
+
+## 5. Konstruktor / Constructor
+
+## 6. Vrijednostni i referentni tipovi podataka / Value types & Reference types
+
+## 7. Statički razredi i metode / Static Classes and Static Methods
+
+## 8. Upravljanje iznimkama / Exception-handling statements
+- throw and try, catch, finally
+
+## 9. Graphical Shapes
+
