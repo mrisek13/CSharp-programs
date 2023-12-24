@@ -36,5 +36,6 @@ Upoznavanje sa pojmovima razred i objekt / Introduction to the concepts of class
 ## 8. Upravljanje iznimkama / Exception-handling statements
 - throw and try, catch, finally
 
-## 9. Graphical Shapes
+## 9. Nasljeđivanje i polimorfizam / Inheritance & Polymorphism
+Grafički oblici / Graphical Shapes
 
