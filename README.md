@@ -39,3 +39,5 @@ Upoznavanje sa pojmovima razred i objekt / Introduction to the concepts of class
 ## 9. Nasljeđivanje i polimorfizam / Inheritance & Polymorphism
 Grafički oblici / Graphical Shapes
 
+## 10. System.Object
+- System.Object kao bazni tip podataka, boxing i unboxing tipova
