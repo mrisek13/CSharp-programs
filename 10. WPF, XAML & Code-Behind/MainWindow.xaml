@@ -1,0 +1,38 @@
+<Window x:Class="OOP_Vj11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OOP_Vj11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label Content="Prvi broj:" Grid.Row="0" Grid.Column="0"/>
+        <TextBox Name="txtPrviBroj" Grid.Row="0" Grid.Column="1" Width="100" Height="25" HorizontalAlignment="Left"/>
+        <Label Content="Drugi broj:" Grid.Row="1" Grid.Column="0"/>
+        <TextBox Name="txtDrugiBroj" Grid.Row="1" Grid.Column="1" Width="100" Height="25" HorizontalAlignment="Left" />
+        <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal">
+            <Button Name="btnZbroji" Content="Zbroji (+)" Margin="5" Padding="5" Click="btnZbroji_Click" />
+            <Button Name="btnOduzmi" Content="Oduzmi (-)" Margin="5" Padding="5" Click="btnOduzmi_Click"/>
+            <Button Name="btnPomnozi" Content="Pomnoži (*)" Margin="5" Padding="5" Click="btnPomnozi_Click"/>
+            <Button Name="btnPodijeli" Content="Podijeli (/)" Margin="5" Padding="5" Click="btnPodijeli_Click"/>
+            <Button Name="btnPonisti" Content="Poništi" Margin="5" Padding="5" Click="btnPonisti_Click"/>
+        </StackPanel>
+        <Label Content="Rezultat:" Grid.Row="3" Grid.Column="0" FontWeight="SemiBold"/>
+        <TextBox Name="txtRezultat" Grid.Row="3" Grid.Column="1" Width="100" Height="25" HorizontalAlignment="Left" />
+        <Button Name="btnIzlaz" Content="Izlaz" Grid.Row="4" Grid.Column="1" Margin="5" Padding="5" Width="75"
+                HorizontalAlignment="Left" Background="DarkRed"
+                Foreground="White" Click="btnIzlaz_Click"/>
+    </Grid>
+</Window>
